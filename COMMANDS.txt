@@ -28,7 +28,7 @@ git diff --staged
 git -a -m "comment"
 git rm file
 git mv file.name filenew.name	
-git rm --catched file.name
+git rm --cached file.name
 git log -p 
 git log -p -[]
 git log --stat
@@ -38,4 +38,6 @@ git log --pretty=full
 git log --since=[].days/week
 git log --pretty=format:""
 git commit --amend
+git restore --staged file.name
+git checkout -- file.name [to get last commit]
 
