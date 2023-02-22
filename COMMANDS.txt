@@ -40,4 +40,6 @@ git log --pretty=format:""
 git commit --amend
 git restore --staged file.name
 git checkout -- file.name [to get last commit]
+git checkout -f
+
 
