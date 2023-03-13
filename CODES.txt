@@ -43,3 +43,15 @@ git checkout -- file.name [to get last commit]
 git checkout -f
 
 
+git remote add  name "URL"
+git remote
+git push -u name master
+ssh-keygen -t ed25519 -C "fenilshahgaming.com"
+eval "$(ssh-agent -s)"	
+ssh-add ~/.ssh/id_ed25519
+tail ~/.ssh/id_ed25519.pub												
+
+git config --global alias.__ command
+git restore file.name
+git checkout -b branchname                [to create new branch]
+
