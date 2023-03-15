@@ -61,4 +61,4 @@ git branch -v                             [to read  last commit message of all b
 git branch --merged                       [to see which branch is already merged]
 git branch --no-merged                    [to see which branch is are not merged]
 git branch -d branchname                  [to delete branch] [D if not merged and still want to delete]
-
+git
