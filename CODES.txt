@@ -54,6 +54,7 @@ tail ~/.ssh/id_ed25519.pub
 git config --global alias.__ command
 git restore file.name
 git checkout -b branchname                [to create new branch]
+git branch
 git checkout branchname
 git merge otherbranchname                 [to merge]
 
