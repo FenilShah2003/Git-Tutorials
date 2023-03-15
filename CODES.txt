@@ -57,4 +57,7 @@ git checkout -b branchname                [to create new branch]
 git branch
 git checkout branchname
 git merge otherbranchname                 [to merge]
+git branch -v                             [to read  last commit message of all branch]
+git branch --merged                       [to see which branch is merged]
+git 
 
