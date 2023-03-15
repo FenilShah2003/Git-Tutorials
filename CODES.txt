@@ -1,0 +1,58 @@
+git config --global user.name ""
+git config --global user.email ""
+git config --global core.editor {emacs}{vim} 
+git config user.name
+git config user.email
+git init
+git status
+git add --a
+git add .
+git add file.name
+git commit -m "comment"
+git commit file.name
+git commit -a                 [i for insert] [:q for quite] [:wq for write and save the commit] [! for not overright]
+git log
+rm -rf .git
+rm -rf file.name
+git clone "url" folder
+git -help
+touch file.name
+touch .gitignor
+	[file.name
+	 *.name
+	 folder/ (for all same name folders)
+	 /folder/ (for only outer folder)
+	 folder/folder (for specific folder)]
+git diff
+git diff --staged
+git -a -m "comment"
+git rm file
+git mv file.name filenew.name	
+git rm --cached file.name
+git log -p 
+git log -p -[]
+git log --stat
+git log --pretty=[]line
+git log --pretty=short
+git log --pretty=full
+git log --since=[].days/week
+git log --pretty=format:""
+git commit --amend
+git restore --staged file.name
+git checkout -- file.name [to get last commit]
+git checkout -f
+
+
+git remote add  name "URL"
+git remote
+git push -u name master
+ssh-keygen -t ed25519 -C "fenilshahgaming.com"
+eval "$(ssh-agent -s)"	
+ssh-add ~/.ssh/id_ed25519
+tail ~/.ssh/id_ed25519.pub												
+
+git config --global alias.__ command
+git restore file.name
+git checkout -b branchname                [to create new branch]
+git checkout branchname
+
