@@ -61,4 +61,11 @@ git branch -v                             [to read  last commit message of all b
 git branch --merged                       [to see which branch is already merged]
 git branch --no-merged                    [to see which branch is are not merged]
 git branch -d branchname                  [to delete branch] [D if not merged and still want to delete]
-git
+
+
+git remote
+git remote -v
+git push name branchname                  [to push another branch]
+git push name branchname:newbranchname    [to push another branch with another name]
+git push -d name branchname               [to delete branch from remote]
+
